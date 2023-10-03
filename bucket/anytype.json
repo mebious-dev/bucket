@@ -1,63 +1,28 @@
 {
-    "##": "This file is a template. Fill the blanks and add or remove fields as necessary.",
-    "version": "",
-    "description": "",
-    "homepage": "",
-    "license": "",
-    "notes": "",
+    "version": "0.35.3-alpha",
+    "description": "Offline personal knowledge management software with local peer-to-peer syncing.",
+    "homepage": "https://anytype.io/",
+    "license": {
+        "identifier": "Any Source Available License 1.0",
+        "url": "https://networks.any.coop/"
+    },
+    "url": "https://github.com/anyproto/anytype-ts/releases/download/v0.35.3-alpha/Anytype.Setup.0.35.3-alpha.exe",
     "architecture": {
-        "64bit": {
-            "url": "",
-            "hash": ""
-        },
         "32bit": {
-            "url": "",
-            "hash": ""
-        },
-        "arm64": {
-            "url": "",
-            "hash": ""
+            "url": "https://github.com/anyproto/anytype-ts/releases/download/v0.35.3-alpha/Anytype.Setup.0.35.3-alpha.exe",
+            "hash": "sha384:84e8e94c1f838c67b5a29bf3130e957e9c7c84e656e95a4ae350af0753215a7bbc1c44a180cd8ed86f423427ac305435"
         }
     },
-    "pre_install": "",
-    "installer": {
-        "script": ""
-    },
-    "post_install": [
-        "",
-        ""
-    ],
-    "uninstaller": {
-        "script": ""
-    },
-    "bin": "",
-    "env_add_path": [
-        "",
-        ""
-    ],
-    "persist": [
-        "",
-        ""
-    ],
+    "bin": "Anytype.exe",
     "checkver": {
-        "url": "",
-        "regex": ""
+        "url": "https://github.com/anyproto/anytype-ts/releases",
+        "regex": "Anytype.Setup.\\d+\\.\\d+\\.\\d+(-alpha|-beta)$.exe"
     },
     "autoupdate": {
         "architecture": {
-            "64bit": {
-                "url": ""
-            },
             "32bit": {
-                "url": ""
-            },
-            "arm64": {
-                "url": ""
+                "url": "https://github.com/anyproto/anytype-ts/releases/download/v$version/Anytype.Setup.$version.exe"
             }
-        },
-        "hash": {
-            "url": "",
-            "regex": ""
         }
     }
 }
