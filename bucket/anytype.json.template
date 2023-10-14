@@ -1,5 +1,4 @@
 {
-    "##": "Please fix this shit it is disgusting",
     "version": "0.35.3-alpha",
     "description": "Offline personal knowledge management software with local peer-to-peer syncing.",
     "homepage": "https://anytype.io/",
@@ -17,7 +16,6 @@
     "bin": "Anytype.exe",
     "checkver": {
         "url": "https://github.com/anyproto/anytype-ts/releases",
-        "##": "Also fix the regex on this shit wtf",
         "regex": "Anytype.Setup.\\d+\\.\\d+\\.\\d+(-alpha|-beta)$.exe"
     },
     "autoupdate": {
