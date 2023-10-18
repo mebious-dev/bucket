@@ -1,0 +1,17 @@
+{
+    "version": "0.35.4",
+    "description": "Offline personal knowledge management software with local peer-to-peer syncing.",
+    "homepage": "https://anytype.io/",
+    "license": {
+        "identifier": "Any Source Available License 1.0",
+        "url": "https://networks.any.coop/"
+    },
+    "url": "https://github.com/anyproto/anytype-ts/releases/download/v0.35.4/Anytype.Setup.0.35.4.exe",
+    "bin": "Anytype.exe",
+    "checkver": {
+        "github": "https://github.com/anyproto/anytype-ts/releases",
+    },
+    "autoupdate": {
+       "url": "https://github.com/anyproto/anytype-ts/releases/download/v$version/Anytype.Setup.v$version.exe"
+    }
+}
